@@ -1,0 +1,11 @@
+[package]
+name = "qr-code"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "qr"
+path = "src/main.rs"
+
+[dependencies]
+image = "0.25"
